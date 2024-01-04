@@ -1,0 +1,2 @@
+INSERT INTO tb_cliente(id_cliente, nome, nascimento, sexo) values (1,'Ed Carlos', '2023-10-18', 'MASCULINO');
+INSERT INTO tb_cliente(id_cliente, nome, nascimento, sexo) values (2,'Priscila', '2023-10-18', 'FWMININO');
