@@ -1,0 +1,145 @@
+package com.techchallenge.parquimetro.DTO;
+
+import java.time.LocalDateTime;
+
+import com.techchallenge.parquimetro.entities.Cliente;
+import com.techchallenge.parquimetro.entities.Parquimetro;
+
+
+
+public class ParquimetroClienteDTO {
+
+	private Long id_parquimetro;
+	private int tipoTempo;
+	private int opcaoDePagamento;
+	private LocalDateTime dataHoraInicial;
+	private LocalDateTime dataHoraFinal;
+     
+	public ClienteDTO cliente;
+
+
+
+
+	public ParquimetroClienteDTO() {
+	
+	}
+	
+
+	public ParquimetroClienteDTO(Long id_parquimetro, LocalDateTime dataHoraInicial, LocalDateTime dataHoraFinal,
+			int opcaoDePagamento, int tipoTempo, ClienteDTO cliente) {
+		
+		this.id_parquimetro = id_parquimetro;
+		this.dataHoraInicial = dataHoraInicial;
+		this.dataHoraFinal = dataHoraFinal;
+		this.opcaoDePagamento = opcaoDePagamento;
+		this.tipoTempo = tipoTempo;
+		this.cliente = cliente;
+	}
+
+
+	public Long getId_parquimetro() {
+		return id_parquimetro;
+	}
+
+
+
+	public void setId_parquimetro(Long id_parquimetro) {
+		this.id_parquimetro = id_parquimetro;
+	}
+
+
+
+	public int getTipoTempo() {
+		return tipoTempo;
+	}
+
+
+
+	public void setTipoTempo(int tipoTempo) {
+		this.tipoTempo = tipoTempo;
+	}
+
+
+
+	public int getOpcaoDePagamento() {
+		return opcaoDePagamento;
+	}
+
+
+
+	public void setOpcaoDePagamento(int opcaoDePagamento) {
+		this.opcaoDePagamento = opcaoDePagamento;
+	}
+
+
+
+	public LocalDateTime getDataHoraInicial() {
+		return dataHoraInicial;
+	}
+
+
+
+	public void setDataHoraInicial(LocalDateTime dataHoraInicial) {
+		this.dataHoraInicial = dataHoraInicial;
+	}
+
+
+
+	public LocalDateTime getDataHoraFinal() {
+		return dataHoraFinal;
+	}
+
+
+
+	public void setDataHoraFinal(LocalDateTime dataHoraFinal) {
+		this.dataHoraFinal = dataHoraFinal;
+	}
+
+
+
+	public ClienteDTO getCliente() {
+		return cliente;
+	}
+
+
+
+	public void setCliente(ClienteDTO cliente) {
+		this.cliente = cliente;
+	}
+
+
+
+	//Criando metodo statico toEntity recebe dto e transforma em entidade
+	//Criar também o metodo construtor na classe entidade no caso veiculo
+	public static Parquimetro toEntity(ParquimetroClienteDTO dto, Cliente cliente) {
+		return new 	Parquimetro(dto, cliente);
+	}
+	
+	//Criando metodo que recebe a entidade e transforma para DTO fazendo o inverso  do toEntituy
+	public static ParquimetroClienteDTO fromEntity(Parquimetro parquimetro) {
+		return new ParquimetroClienteDTO(
+			    parquimetro.getId_parquimetro(),
+				parquimetro.getDataHoraInicial(),
+				parquimetro.getDataHoraFinal(),
+				parquimetro.getOpcaoDePagamento(),
+				parquimetro.getTipoTempo(),
+				parquimetro.getCliente() != null ? ClienteDTO.fromEntity(parquimetro.getCliente()): null
+				);
+	}	
+	
+	
+     //Construindo o metodo mapper recebendo o dto e a entidade pra utilização na service 
+	public static Parquimetro mapperDtoToEntity(
+			ParquimetroClienteDTO dto, 
+			Parquimetro entity,
+			Cliente cliente)
+	{
+	     entity.setDataHoraInicial(dto.getDataHoraFinal());
+	     entity.setDataHoraFinal(dto.getDataHoraFinal());
+	     entity.setOpcaoDePagamento(dto.getOpcaoDePagamento());
+	     entity.setTipoTempo(dto.getTipoTempo());
+		return entity;
+	}
+
+		
+}
