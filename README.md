@@ -167,8 +167,6 @@ Nesta segunda fase o desafio continua grande, estou aprendendo muito com as live
 
 Nesta terceira fase consegui ter um melhor desenpenho no desenvolvimento do que foi proposto para o negócio, com mais clareza e entendimento nas lives do coda comigo, consegui melhorar minha aplicação e utilizar nos processo de CRUD os conceitos de relacionamento OneToOne, ManyToOne, OneToMany, ManyToMany, tanto no contexto unidirecional quanto no bidirecional, aplicando as camadas de segurança e realizando o tratamento das exceções, para garantira a validação de dados e a sua segurança. Para mim foi muito interessante essa troca de experincia e informações nas lives, em meu projeto estou conseguindo aplicar muitas dicas e aprendizados, agora consigo enteder melhor meu código e como funciona e para que servem os padrões de camadas, consegui aplicar a utilização do banco de dados em nuvem não requerendo consumo da máquina local, além de possibilitar o desenvolvimento em ambientes diferentes como ambiente de desenvolvimento, ambiente de teste e ambiente de produção para quando for o caso de colocar a aplicação em nuvem.
 
-## Autor
-
 ## Licença
 
 [Licença MIT](https://opensource.org/license/mit/): permite o uso, a modificação e a distribuição do software sem restrições significativas.
