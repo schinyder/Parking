@@ -14,8 +14,7 @@ Desafio Tecnológico na Pós-Graduação: Explorando Inovações e Soluções Na
 1. [Stack de desenvovimento Utilizado](#tecnologias)
 2. [Plataformas e ferramentas](#ferramentas)
 3. [Documentação](/DOCUMENTACAO.md)
-4. [Jornada](#jornada)
-5. [Licença](#licença)
+4. [Licença](#licença)
 
 ## Tecnologias
 
@@ -150,22 +149,6 @@ networks:
    ## Consulta Parquimetro banco de dados Postgres
    <img width="829" alt="Consulta Parquimetro Postgres" src="https://github.com/edcarlossilva1/parquimetro/assets/138680851/2a4f1dc1-abf1-4b8e-bd04-96433da51ee4">
 
-
-
-## Jornada
-
-### Primeira fase
-
-O desenvolvimento do projeto foi muito desafiador uma vez que não trabalho como programador utilizando a linguagem de programação JAVA e também por ter encarado o desafio sozinho, obtive conhecimento com as live's coda comigo e os videos da plataforma da Fiap e Alura. 
-Para mim é tudo novo tenho o conhecimento bem superficial, espero ter atingido um pouco da espectiva do proposto no exercicio e pretendo aprimorar mais ainda com a continuidade da Segunda fase. 
-
-### Segunda fase
-
-Nesta segunda fase o desafio continua grande, estou aprendendo muito com as lives do coda comigo, tem me facilitado muito em alguns entendimentos e abordagens para aplicação em meu projeto. Prentendo evoluir mais o projeto na terceira fase.  
-
-### Terceira fase
-
-Nesta terceira fase consegui ter um melhor desenpenho no desenvolvimento do que foi proposto para o negócio, com mais clareza e entendimento nas lives do coda comigo, consegui melhorar minha aplicação e utilizar nos processo de CRUD os conceitos de relacionamento OneToOne, ManyToOne, OneToMany, ManyToMany, tanto no contexto unidirecional quanto no bidirecional, aplicando as camadas de segurança e realizando o tratamento das exceções, para garantira a validação de dados e a sua segurança. Para mim foi muito interessante essa troca de experincia e informações nas lives, em meu projeto estou conseguindo aplicar muitas dicas e aprendizados, agora consigo enteder melhor meu código e como funciona e para que servem os padrões de camadas, consegui aplicar a utilização do banco de dados em nuvem não requerendo consumo da máquina local, além de possibilitar o desenvolvimento em ambientes diferentes como ambiente de desenvolvimento, ambiente de teste e ambiente de produção para quando for o caso de colocar a aplicação em nuvem.
 
 ## Licença
 
