@@ -1,15 +1,20 @@
 # Projeto pós graduação | Tech challenge - parquimetro fase 3
 
-Projeto Teche Challenge realizado para pós-graduação [FIAP](https://www.fiap.com.br/) do curso de [Arquitetura e desenvolvimentoJAVA](https://postech.fiap.com.br/curso/arquitetura-desenvolvimento-java) propõe na terceira fase do curso o desenvolvimento de um sistema WEB, com interfaces e APIS, para cadastro de cliente, endereços, veiculos e gerenciamneto de estacionamento - (Parquimetro), com a finalidade de calcular o consumo durante o periodo de utilização da vaga, assim como escolher formas de pagamentos entre PIX, cartão de crédito ou de débito. A API foi desenvolvida com as tecnologias Spring Boot, Java17, Maven e banco de dados interno h2. e banco de dados Postgres em nuvem no Docker o objetivo de uma solução pratica com a utilização de endpoints para realização de operações  de criação, atualização e recuperação de registros. 
+Desafio Tecnológico na Pós-Graduação: Explorando Inovações e Soluções Na Fiap Curso de Pós Graduação de Arquitetura e desenvolvimento Java propõe na segunda fase do curso o desenvolvimento de um sistema WEB, com interfaces e APIS, para cadastro de cliente, endereços, veiculos e gerenciamneto de estacionamento - (Parquimetro), com a finalidade de calcular o consumo durante o periodo de utilização da vaga, assim como escolher formas de pagamentos entre PIX, cartão de crédito ou de débito. A API foi desenvolvida com as tecnologias Spring Boot, Java17, Maven e banco de dados interno h2. e banco de dados Postgres em nuvem no Docker o objetivo de uma solução pratica com a utilização de endpoints para realização de operações  de criação, atualização e recuperação de registros. 
+## Equipe:
+
+* Lucas Silva 
+* Gustavo Dumitresco 
+* Helio Nascimento 
+* Guilherme 
 
 ## Índice
 
-1. [Tecnologias](#tecnologias)
-2. [Ferramentas](#ferramentas)
+1. [Stack de desenvovimento Utilizado](#tecnologias)
+2. [Plataformas e ferramentas](#ferramentas)
 3. [Documentação](/DOCUMENTACAO.md)
 4. [Jornada](#jornada)
-5. [Autor](#autor)
-6. [Licença](#licença)
+5. [Licença](#licença)
 
 ## Tecnologias
 
