@@ -169,11 +169,6 @@ Nesta terceira fase consegui ter um melhor desenpenho no desenvolvimento do que 
 
 ## Autor
 
-- [Ed Carlos](email: rm349820@fiap.com.br)
-
-Agradeço a minha esposa[Priscia Angelica da Silva] que continua contribuindo com o projeto me apoiando com as atividades pessoais em que não pude participar devido aos estudos.
-
-
 ## Licença
 
 [Licença MIT](https://opensource.org/license/mit/): permite o uso, a modificação e a distribuição do software sem restrições significativas.
