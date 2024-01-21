@@ -9,30 +9,26 @@ Desafio Tecnológico na Pós-Graduação: Explorando Inovações e Soluções Na
 * Helio Nascimento 
 * Guilherme 
 
-## Índice
+### Índice
 
 1. [Stack de desenvovimento Utilizado](#tecnologias)
 2. [Plataformas e ferramentas](#ferramentas)
 3. [Documentação](/DOCUMENTACAO.md)
 4. [Licença](#licença)
 
-## Tecnologias
+### Tecnologias
 
 Tecnologias utilizadas durante o desenvolvimento do projeto.
 
-1. [Java 17](https://docs.oracle.com/en/java/javase/17/docs/api/)
-Linguagem de programação escolhida para implementar a lógica do sistema, garantindo confiabilidade, segurança e escalabilidade.
-2. [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
-Utilizado como framework para agilizar o desenvolvimento da API, oferecendo recursos como injeção de dependências, mapeamento de URLs, tratamento de requisições HTTP e muito mais.
-3. [h2](https://www.postgresql.org/docs/)
-Banco de dados utilizado para armazenar e gerenciar as informações relacionadas a eletrodomésticos, endereços e pessoas. O PostgreSQL é conhecido por sua robustez e confiabilidade, adequado para aplicações de larga escala.
-4. [PostgreSQL](https://www.postgresql.org/docs/)
-Banco de dados utilizado para armazenar e gerenciar as informações relacionadas a eletrodomésticos, endereços e pessoas.
-5. [Maven](https://maven.apache.org/guides/index.html)
-Gerenciador de dependências utilizado para facilitar a configuração e o gerenciamento das bibliotecas e dependências do projeto.
+| Item         | Descrição    |
+|--------------|--------------|
+| 1. [Java 17](https://docs.oracle.com/en/java/javase/17/docs/api/) | Linguagem de programação escolhida para implementar a lógica do sistema, garantindo confiabilidade, segurança e escalabilidade.|
+| 2. [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/) | Utilizado como framework para agilizar o desenvolvimento da API, oferecendo recursos como injeção de dependências, mapeamento de URLs, tratamento de requisições HTTP e muito mais.|
+| 3. [h2](https://www.postgresql.org/docs/) | Banco de dados utilizado para armazenar e gerenciar as informações relacionadas a eletrodomésticos, endereços e pessoas. O PostgreSQL é conhecido por sua robustez e confiabilidade, adequado para aplicações de larga escala.|
+| 4. [PostgreSQL](https://www.postgresql.org/docs/) | Banco de dados utilizado para armazenar e gerenciar as informações relacionadas a eletrodomésticos, endereços e pessoas.|
+| 5. [Maven](https://maven.apache.org/guides/index.html) | Gerenciador de dependências utilizado para facilitar a configuração e o gerenciamento das bibliotecas e dependências do projeto.|
 
-
-## Ferramentas
+### Ferramentas
 
 #### [Eclipse IDE](https://eclipseide.org)
 Ambiente de desenvolvimento integrado (IDE) utilizado para escrever, depurar e testar o código-fonte do projeto. O Eclipse possui recursos avançados de produtividade que facilitãoo desenvolvimento em Java e agiliza o processo de construção da API's.
