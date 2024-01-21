@@ -1,7 +1,12 @@
 # Projeto de conclusão de fase de módulo de curso.
-Construção de um sistema de parquimetro
+## Construção de um sistema de parquimetro
 
-Desafio Tecnológico na Pós-Graduação: Explorando Inovações e Soluções Na Fiap Curso de Pós Graduação de Arquitetura e desenvolvimento Java propõe na segunda fase do curso o desenvolvimento de um sistema WEB, com interfaces e APIS, para cadastro de cliente, endereços, veiculos e gerenciamneto de estacionamento - (Parquimetro), com a finalidade de calcular o consumo durante o periodo de utilização da vaga, assim como escolher formas de pagamentos entre PIX, cartão de crédito ou de débito. A API foi desenvolvida com as tecnologias Spring Boot, Java17, Maven e banco de dados interno h2. e banco de dados Postgres em nuvem no Docker o objetivo de uma solução pratica com a utilização de endpoints para realização de operações  de criação, atualização e recuperação de registros. 
+O curso de Pós-Graduação em Arquitetura e Desenvolvimento Java, oferecido pela FIAP, propõe um desafio tecnológico na segunda fase do programa. Os participantes são desafiados a desenvolver um sistema web robusto, incorporando interfaces e APIs, destinado ao cadastro de clientes, endereços, veículos, e gestão de estacionamento. A finalidade principal é calcular o consumo durante o período de ocupação da vaga, oferecendo claculo de check out.
+
+A implementação da API é realizada com tecnologias avançadas, incluindo Spring Boot, Java 17 e Maven. O banco de dados interno H2 é utilizado para operações locais, enquanto a solução inclui a integração com um banco de dados PostgreSQL em nuvem, hospedado em um ambiente Docker. O objetivo principal é fornecer uma solução prática, empregando endpoints para operações essenciais como criação, atualização e recuperação de registros, oferecendo aos participantes uma experiência abrangente em desenvolvimento web moderno.
+
+Este projeto não apenas desafia os estudantes a aplicarem os conhecimentos adquiridos durante o curso, mas também proporciona uma oportunidade única de explorar e inovar no cenário tecnológico atual, abordando problemas práticos e relevantes no gerenciamento de estacionamentos digitais. O desenvolvimento da solução não apenas demonstra a proficiência técnica dos participantes, mas também destaca a capacidade de aplicar conceitos aprendidos em um contexto prático e dinâmico.
+
 ## Equipe:
 
 * Lucas Silva 
@@ -9,14 +14,14 @@ Desafio Tecnológico na Pós-Graduação: Explorando Inovações e Soluções Na
 * Helio Nascimento 
 * Guilherme 
 
-### Índice
+## Índice
 
 1. [Stack de desenvovimento Utilizado](#tecnologias)
 2. [Plataformas e ferramentas](#ferramentas)
 3. [Documentação](/DOCUMENTACAO.md)
 4. [Licença](#licença)
 
-### Tecnologias
+## Tecnologias
 
 Tecnologias utilizadas durante o desenvolvimento do projeto.
 
