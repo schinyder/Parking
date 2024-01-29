@@ -10,7 +10,6 @@ Este projeto não apenas desafia os estudantes a aplicarem os conhecimentos adqu
 ## Equipe:
 
 * Lucas Silva 
-* Eduardo da Silva Escudero 
 * Gustavo Dumitresco 
 * Helio Nascimento 
 * Guilherme 
