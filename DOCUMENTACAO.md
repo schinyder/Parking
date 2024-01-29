@@ -3,19 +3,18 @@
 Esta documentação tem como objetivo listar, descrever e exemplificar os endpoints de todas as APIs do projeto de forma a facilitar o consumo da API pelos clientes.
 
 ### **Índice**
-:
-👥 [Cliente](#-api-de-clientes) \
-🌎 [Endereços](#-api-de-enderecos) \
-🚗 [Veiculos](#-api-de-veiculos) \
-🎌 [Parquimetro](#-api-de-parquimetro)
+
+[Cliente](#-api-de-clientes) \
+[Endereços](#-api-de-enderecos) \
+[Veiculos](#-api-de-veiculos) \
+[Parquimetro](#-api-de-parquimetro)
 <br />
 
 
-# 👥 API de Clientes
+## API de Clientes
 A API de clientes consiste em um conjunto de endpoints para gerenciar os clientes. Ela dispõe de métodos para criação, edição, busca e listagem de clientes. <br /><br />
 
-📌
-### 🟢 **POST** http://localhost:81/cliente
+### **POST** http://localhost:81/cliente
 \
 Cria um cliente através dos dados recebidos via JSON no corpo da requisição.
 
@@ -37,8 +36,8 @@ Cria um cliente através dos dados recebidos via JSON no corpo da requisição.
 ```
 <br />
 
-📌
-### 🔵 **GET** http://localhost:81/cliente
+
+### **GET** http://localhost:81/cliente
 \
 Lista todos os clientes contidos na base de dados.
 
@@ -67,8 +66,8 @@ Lista todos os clientes contidos na base de dados.
 <br />
 
 
-📌
-### 🔵 **GET** http://localhost:81/cliente/1
+
+### **GET** http://localhost:81/cliente/1
 \
 Lista um cliente especifico passando o seu ID.
 
@@ -87,8 +86,7 @@ Lista um cliente especifico passando o seu ID.
 ```
 <br />
 
-📌
-### 🟡 **PUT** http://localhost:81/cliente/1
+### **PUT** http://localhost:81/cliente/1
 \
 Atualizando informações de um cliente especifico passando o seu ID.
 
@@ -126,8 +124,7 @@ Atualizando informações de um cliente especifico passando o seu ID.
     }
 ```
 
-📌
-### 🔴 **DELETE** http://localhost:81/cliente/1
+### **DELETE** http://localhost:81/cliente/1
 \
 Deletando um cliente especifico passando o seu ID.
 
@@ -138,7 +135,7 @@ Deletando um cliente especifico passando o seu ID.
     Exclusão Realizada com Sucesso!
 ```
 #### *Resultado utilizando o metodo GET por ID após a exclusão* 
-🔵 **GET** http://localhost:81/cliente/1
+### **GET** http://localhost:81/cliente/1
 ```
     {
         "timestamp": "2023-11-15T19:57:35.575214800Z",
@@ -150,11 +147,11 @@ Deletando um cliente especifico passando o seu ID.
 ```
 <br />
 
-# 🌎 API de Endereços
+# API de Endereços
 A API de endereços consiste em um conjunto de endpoints para gerenciar os endereços. Ela dispõe de métodos para criação, edição, busca e listagem de endereços. <br /><br />
 
-📌
-### 🟢 **POST** http://localhost:81/endereco
+
+### **POST** http://localhost:81/endereco
 \
 Cria um Endereço através dos dados recebidos via JSON no corpo da requisição.
 
@@ -175,8 +172,7 @@ Cria um Endereço através dos dados recebidos via JSON no corpo da requisição
 ```
 <br />
 
-📌
-### 🔵 **GET** http://localhost:81/endereco
+### **GET** http://localhost:81/endereco
 \
 Lista todos os endereços contidos na base de dados.
 
@@ -220,9 +216,7 @@ Lista todos os endereços contidos na base de dados.
 ```
 <br />
 
-
-📌
-### 🔵 **GET** http://localhost:81/endereco/1
+### **GET** http://localhost:81/endereco/1
 \
 Lista um endereco especifico passando o seu ID.
 
@@ -249,8 +243,7 @@ Lista um endereco especifico passando o seu ID.
 ```
 <br />
 
-📌
-### 🟡 **PUT** http://localhost:81/endereco/1
+### **PUT** http://localhost:81/endereco/1
 \
 Atualizando informações de um endereco especifico passando o seu ID.
 
@@ -311,8 +304,8 @@ Atualizando informações de um endereco especifico passando o seu ID.
         }
 ```
 
-📌
-### 🔴 **DELETE** http://localhost:81/endereco/1
+
+### **DELETE** http://localhost:81/endereco/1
 \
 Deletando um endereço especifico passando o seu ID.
 
@@ -323,7 +316,7 @@ Deletando um endereço especifico passando o seu ID.
     Exclusão Realizada com Sucesso!
 ```
 #### *Resultado utilizando o metodo GET por ID após a exclusão* 
-🔵 **GET** http://localhost:81/endereco/1
+### **GET** http://localhost:81/endereco/1
 ```
     {
         "timestamp": "2023-11-16T02:51:59.599603Z",
@@ -335,11 +328,11 @@ Deletando um endereço especifico passando o seu ID.
 ```
 <br />
 
-# 🚗 API de Veiculos
+# API de Veiculos
 A API de veiculos consiste em um conjunto de endpoints para gerenciar os veiculos. Ela dispõe de métodos para criação, edição, busca e listagem de veiculos. <br /><br />
 
-📌
-### 🟢 **POST** http://localhost:81/veiculo
+
+### **POST** http://localhost:81/veiculo
 \
 Cria um Veiculo através dos dados recebidos via JSON no corpo da requisição.
 
@@ -358,8 +351,7 @@ Cria um Veiculo através dos dados recebidos via JSON no corpo da requisição.
 ```
 <br />
 
-📌
-### 🔵 **GET** http://localhost:81/veiculo
+### **GET** http://localhost:81/veiculo
 \
 Lista todos os veiculo contidos na base de dados.
 
@@ -415,8 +407,8 @@ Lista todos os veiculo contidos na base de dados.
 <br />
 
 
-📌
-### 🔵 **GET** http://localhost:81/veiculo/1
+
+###  **GET** http://localhost:81/veiculo/1
 \
 Lista um veiculo especifico passando o seu ID.
 
@@ -441,8 +433,8 @@ Lista um veiculo especifico passando o seu ID.
 ```
 <br />
 
-📌
-### 🟡 **PUT** http://localhost:81/veiculo/1
+
+### **PUT** http://localhost:81/veiculo/1
 \
 Atualizando informações de um veiculo especifico passando o seu ID.
 
@@ -497,8 +489,8 @@ Atualizando informações de um veiculo especifico passando o seu ID.
         }
 ```
 
-📌
-### 🔴 **DELETE** http://localhost:81/veiculo/1
+
+### **DELETE** http://localhost:81/veiculo/1
 \
 Deletando um veiculo especifico passando o seu ID.
 
@@ -509,7 +501,7 @@ Deletando um veiculo especifico passando o seu ID.
     Exclusão Realizada com Sucesso!
 ```
 #### *Resultado utilizando o metodo GET por ID após a exclusão* 
-🔵 **GET** http://localhost:81/veiculo/1
+## **GET** http://localhost:81/veiculo/1
 ```
         {
             "timestamp": "2023-11-16T03:23:42.091771Z",
@@ -521,11 +513,11 @@ Deletando um veiculo especifico passando o seu ID.
 ```
 <br />
 
-# 🎌 API de Parquimetro
+# API de Parquimetro
 A API de veiculos consiste em um conjunto de endpoints para gerenciar os veiculos que estacionam. Ela dispõe de métodos para criação, edição, busca e listagem de veiculos estacionados. <br /><br />
 
-📌
-### 🟢 **POST** http://localhost:81/parquimetro
+
+### **POST** http://localhost:81/parquimetro
 \
 Cria um cadastrp de estacionamento do veiculo através dos dados recebidos via JSON no corpo da requisição.
 
@@ -544,8 +536,8 @@ Cria um cadastrp de estacionamento do veiculo através dos dados recebidos via J
 ```
 <br />
 
-📌
-### 🔵 **GET** http://localhost:81/parquimetro
+
+###  **GET** http://localhost:81/parquimetro
 \
 Lista todos os veiculo de clientes com registros de estacionamentos contidos na base de dados.
 
@@ -586,8 +578,8 @@ Lista todos os veiculo de clientes com registros de estacionamentos contidos na 
 <br />
 
 
-📌
-### 🔵 **GET** http://localhost:81/parquimetro/1
+
+###  **GET** http://localhost:81/parquimetro/1
 \
 Lista um veiculo com registros de estacionamento passando o seu ID.
 
@@ -612,8 +604,8 @@ Lista um veiculo com registros de estacionamento passando o seu ID.
 ```
 <br />
 
-📌
-### 🟡 **PUT** http://localhost:81/parquimetro/1
+
+### **PUT** http://localhost:81/parquimetro/1
 \
 Atualizando informações de um veiculo com registro de estacionamento passando o seu ID.
 
@@ -669,8 +661,8 @@ Atualizando informações de um veiculo com registro de estacionamento passando 
         }
 ```
 
-📌
-### 🔴 **DELETE** http://localhost:81/parquimetro/1
+
+### **DELETE** http://localhost:81/parquimetro/1
 \
 Deletando o registro de estacionamento de um veiculo e cliente especifico passando o seu ID.
 
@@ -681,7 +673,7 @@ Deletando o registro de estacionamento de um veiculo e cliente especifico passan
     Exclusão Realizada com Sucesso!
 ```
 #### *Resultado utilizando o metodo GET por ID após a exclusão* 
-🔵 **GET** http://localhost:81/parquimetro/1
+ **GET** http://localhost:81/parquimetro/1
 ```
         {
             "timestamp": "2023-11-17T00:34:53.500891200Z",
