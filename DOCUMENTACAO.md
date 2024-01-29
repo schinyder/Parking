@@ -513,11 +513,11 @@ Deletando um veiculo especifico passando o seu ID.
 ```
 <br />
 
-# 🎌 API de Parquimetro
+# API de Parquimetro
 A API de veiculos consiste em um conjunto de endpoints para gerenciar os veiculos que estacionam. Ela dispõe de métodos para criação, edição, busca e listagem de veiculos estacionados. <br /><br />
 
 
-### 🟢 **POST** http://localhost:81/parquimetro
+### **POST** http://localhost:81/parquimetro 
 \
 Cria um cadastrp de estacionamento do veiculo através dos dados recebidos via JSON no corpo da requisição.
 
